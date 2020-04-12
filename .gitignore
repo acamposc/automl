@@ -1,0 +1,11 @@
+venv*
+.vscode/
+
+env.sh
+
+creds/*
+!creds/.gitkeep
+
+*test*
+
+__pycache__
