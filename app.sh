@@ -4,7 +4,7 @@
 #activate / deactivate virtual environment
 #https://www.youtube.com/watch?v=Kg1Yvry_Ydk
 #python3 -m venv automl/venv
-#source h2oautoml/venv/bin/activate
+#source automl/venv/bin/activate
 #deactivate
 # venv/ is ignored in .gitignore
 
@@ -17,9 +17,11 @@
 #pip freeze > requirements.txt
 
 #deleting the venv:
-#rm -rf h2oautoml
+#rm -rf automl
 #removes the whole project
 
 source env.sh
 # run anywhere
-PYTHONIOENCODING=utf-8 python3.8 app.py
+#PYTHONIOENCODING=utf-8 python3.8 app.py
+#python test/test.py
+python app.py

@@ -6,6 +6,7 @@ env.sh
 creds/*
 !creds/.gitkeep
 
-*test*
-
 __pycache__
+
+uci.csv
+StackedEnsemble*
