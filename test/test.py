@@ -35,8 +35,8 @@ print(train.nrow, valid.nrow, test.nrow)
 
 # automl estimator
 aml = H2OAutoML(
-    max_models = 5,
-    max_runtime_secs = 300,
+    max_models = 8,
+    max_runtime_secs = 900,
     seed = 1
 )
 
